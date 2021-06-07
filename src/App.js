@@ -3,7 +3,7 @@ so always use uppercase letters for first letter for our elements!
 ex. ExpenseItem
 */
 
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
 function App() {
   const expenses = [
