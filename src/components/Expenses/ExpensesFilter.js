@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ExpensesFilter.css";
 
 function ExpensesFilter(props) {
-  const [currentState, setCurrentState] = useState("2021");
+  
 
   function changeHandler(event) {
-    setCurrentState(event.target.value);
-    props.onNewFilterChange(currentState);
+    console.log(event.target.value);
+    props.onNewFilterChange(event.target.value);
   }
 
   return (
