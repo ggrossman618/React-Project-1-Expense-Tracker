@@ -53,6 +53,8 @@ function ExpenseForm(props) {
     setEnteredTitle(''); //for resetting text field  back to blank
     setEnteredAmount('');
     setEnteredDate('');
+
+    props.changedOpenState(true);
   }
 
   return (
