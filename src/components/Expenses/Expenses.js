@@ -21,6 +21,7 @@ function Expenses(props) {
         />
         {props.items.map((expense) => ( //expense is a new variable name, can be anything
           <ExpenseItem
+            key={expense.id} //adding this key to deal with render times
             title={expense.title}
             amount={expense.amount}
             date={expense.date}
