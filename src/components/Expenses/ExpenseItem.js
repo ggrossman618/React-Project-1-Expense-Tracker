@@ -23,7 +23,6 @@ function ExpenseItem(props) {
         <h2>{props.title}</h2>
         <div className="expense-item__price">${props.amount}</div>
       </div>
-    
       {/*you don't execute function using (), you just point to it */}
     </Card>
   );
